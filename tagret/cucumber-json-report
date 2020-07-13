@@ -1,0 +1,234 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# Selenium - Cucumber Assignment by Imran peenamajidsab"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "to register an user",
+        "description": "",
+        "id": "to-register-and-send-mail-after-successfull-validation-of-profile;to-register-an-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13258524300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the website is loaded",
+            "match": {
+              "location": "Verrifysignupstep.the_website_is_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Engilsh is selected as Language on the home page",
+            "match": {
+              "location": "Verrifysignupstep.engilsh_is_selected_as_Language_on_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2832235300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user wants to register",
+            "match": {
+              "location": "Verrifysignupstep.user_wants_to_register()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1920373600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "mandatory fields are populated",
+            "match": {
+              "location": "Verrifysignupstep.mandatory_fields_are_populated(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "lastname",
+                  "email",
+                  "username",
+                  "password"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "imran",
+                  "pm",
+                  "pmimran7@gmail.com",
+                  "imran",
+                  "imran123"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2107040100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Clicking on the Register button",
+            "match": {
+              "location": "Verrifysignupstep.clicking_on_the_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80730700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "display the valid message if registered successfully",
+            "match": {
+              "location": "Verrifysignupstep.display_the_valid_message_if_registered_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@registration"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "to validate name and email",
+        "description": "",
+        "id": "to-register-and-send-mail-after-successfull-validation-of-profile;to-validate-name-and-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 146700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user registered successfully",
+            "match": {
+              "location": "Verrifysignupstep.user_registered_successfully()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 161512300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clicked on profile dropdown at top right corner",
+            "match": {
+              "location": "Verrifysignupstep.clicked_on_profile_dropdown_at_top_right_corner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 173500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "display profile details such as name and email",
+            "match": {
+              "location": "Verrifysignupstep.display_profile_details_such_as_name_and_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 191830100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "validate name and email of the user.",
+            "match": {
+              "location": "Verrifysignupstep.validate_name_and_email_of_the_user()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@profilevalidation"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "to check user is able to send mail",
+        "description": "",
+        "id": "to-register-and-send-mail-after-successfull-validation-of-profile;to-check-user-is-able-to-send-mail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23807626900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user wants to send an message to other user",
+            "match": {
+              "location": "Verrifysignupstep.user_wants_to_send_an_message_to_other_user()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@email"
+          }
+        ]
+      }
+    ],
+    "name": "to register and send mail after successfull validation of profile",
+    "description": "",
+    "id": "to-register-and-send-mail-after-successfull-validation-of-profile",
+    "keyword": "Feature",
+    "uri": "Newrequirment.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@registration"
+      },
+      {
+        "line": 2,
+        "name": "@profilevalidation"
+      },
+      {
+        "line": 2,
+        "name": "@email"
+      }
+    ]
+  }
+]
